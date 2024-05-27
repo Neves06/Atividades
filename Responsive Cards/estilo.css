@@ -1,43 +1,38 @@
 /*---Default---*/
-.container {
+.container{
     max-width: 1024px;
     margin: 0 auto;
+    
 }
-
-.box {
+.box{
     display: flex;
     max-width: 1024px;
     height: 220px;
     margin-bottom: 16px;
     border: 1px black solid;
 }
-
-img {
+img{
     width: 353px;
     height: 188px;
     border-radius: 4px;
     margin: 16px 0px 16px 16px;
 }
-
-.info {
-    margin: 12px 16px 21px;
+.info{
+    margin: 12px 21px 16px 21px;
 }
-
-h2 {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
+h2{
+font-size: 24px;
+line-height: 32px;
+font-weight: 600;
 }
-
-p {
+p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.botao {
+.botao{
     display: flex;
     width: 100%;
     padding: 12px 0px;
@@ -48,49 +43,29 @@ p {
     margin: 10px 0;
     border-radius: 4px;
 }
-
-.data {
+.data{
     text-align: center;
 }
-
-/* Responsivo */
-@media screen and (max-width: 1024px) {
-    .container {
+@media screen and (max-width:1024px) {
+    .container{
         max-width: 360px;
-        height: auto;
+        height: 458px;
     }
-
-    .box {
-        max-width: 328px;
-        height: auto;
+    .box{
+        width: 360px;
+        height: 458px;
         flex-direction: column;
-        margin-bottom: 16px;
     }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 4px;
-        margin: 16px 0;
+    img{
+        width: 328px;
+        height: 194px;
+        
     }
-
-    .info {
-        margin: 12px 16px;
-        height: auto;
+    .box .info{
+        width: 328px;
+        height: 402px;
     }
-
-    h2 {
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 16px;
-    }
-
-    .botao {
+    .botao{
         margin: 10px 0;
         border-radius: 4px;
     }
